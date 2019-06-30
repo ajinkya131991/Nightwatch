@@ -1,6 +1,6 @@
 module.exports = {
     "src_folders" : ["tests"],  //when we run nightwatch command it will look into this folder for all tests files
-  
+    'page_objects_path': ["page-objects"],
     "webdriver" : {    // Its a Engine which connents webdriver to nightwatch
       "start_process": true,
       "server_path": "node_modules/chromedriver/lib/chromedriver/chromedriver.exe",   // Gives location to chrome driver
